@@ -2,7 +2,7 @@ import logging
 import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
-from keep_alive import keep_alive
+
 
 keep_alive()
 # إعداد سجل الأخطاء
